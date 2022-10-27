@@ -1,0 +1,25 @@
+$bg-color: #241d24;
+$primary-color: #3c0f53;
+$text-primary-color: #fefcfe;
+$text-secondary-color: #d69fe9;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  width: 100vw;
+  background-color: $bg-color;
+}
+
+main {
+  background-color: $bg-color;
+  min-height: calc(100vh - 100px - 70px); 
+  width: 100vw;   
+}
+
+footer {
+  min-height: 70px;
+  width: 100vw;
+  background-color: $bg-color;  
+}

@@ -1,0 +1,16 @@
+$text-secondary-color: #e99fbb;
+
+.header-links {    
+    padding-right: 50px;
+}
+
+.header-links > a {  
+    font-size: larger;  
+    padding: 0 25px;
+    transition: 0.4s linear; 
+}
+
+.header-links > a:hover {  
+    color: $text-secondary-color;
+    cursor: pointer; 
+}

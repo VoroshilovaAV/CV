@@ -1,14 +1,15 @@
 import React from 'react';
-import './App.css';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>    
-      </header>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
