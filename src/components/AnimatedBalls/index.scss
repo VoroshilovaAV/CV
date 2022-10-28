@@ -1,0 +1,26 @@
+@import '../../constants/index.scss';
+
+.aboutme-wrapper__ball {
+    position: absolute;     
+    width: 40px;
+    height: 40px;    
+	opacity: .7;
+    border-radius: 50%;
+}
+
+.aboutme-wrapper__pink {
+	top: -20px;
+	background-color: $text-secondary-color;
+}
+
+.aboutme-wrapper__white {
+	top: -60px;
+	left: 50px;
+	background-color: $text-primary-color;
+}
+
+.aboutme-wrapper__blue {
+	top: -40px;
+	left: 110px;
+	background-color: $text-tertiary-color;
+}
