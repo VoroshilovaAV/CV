@@ -1,12 +1,7 @@
-$bg-color: #241d24;
-$primary-color: #3c0f53;
-$text-primary-color: #fefcfe;
-$text-secondary-color: #d69fe9;
+@import "./constants/index.scss";
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header {   
+  position: sticky;
   min-height: 100px;
   width: 100vw;
   background-color: $bg-color;

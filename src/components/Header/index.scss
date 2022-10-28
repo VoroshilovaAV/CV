@@ -1,7 +1,12 @@
-$text-secondary-color: #e99fbb;
+@import '../../constants/index.scss';
 
-.header-links {    
-    padding-right: 50px;
+.header-wrapper {    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; 
+    min-height: 100px;
+    padding: 0 5vw;
 }
 
 .header-links > a {  
