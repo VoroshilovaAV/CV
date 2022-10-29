@@ -1,20 +1,17 @@
 @import "./constants/index.scss";
 
 header {   
-  position: sticky;
-  min-height: 100px;
-  width: 100vw;
+  min-height: 100px;   
   background-color: $bg-color;
 }
 
 main {
   background-color: $bg-color;
   min-height: calc(100vh - 100px - 70px); 
-  width: 100vw;   
+  padding: 50px 0;
 }
 
 footer {
-  min-height: 70px;
-  width: 100vw;
+  min-height: 70px;  
   background-color: $bg-color;  
 }

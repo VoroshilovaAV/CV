@@ -6,20 +6,25 @@ h1 {
 }
 
 h3 {
-    font-size: 1.5rem;
-    color: $text-secondary-color;   
+    font-size: 1.4rem;
+    color: $text-primary-color;   
+}
+
+span {
+	color: $text-secondary-color; 
 }
 
 .aboutme-wrapper {    
     display: flex;
     justify-content: center;   
-    align-items: center;    
+    align-items: center; 	
 }
 
 .aboutme-wrapper__text {
     flex-grow: 0.5;
     text-align: center;
     position: relative;
+	max-width: 700px;
 }
 
 .aboutme-wrapper__btn {	
@@ -125,4 +130,15 @@ h3 {
 	background: $focus-color;
 	box-shadow: 0 0 5px $focus-color, 0 0 15px $focus-color, 0 0 30px $focus-color,
 		0 0 60px $focus-color;
+}
+
+.aboutme-info {
+	padding: 60px 0;
+}
+
+.aboutme-info > p {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 45px;
+	letter-spacing: 0.07em;
 }
