@@ -10,12 +10,12 @@ svg {
     width: 40px;
     height: 40px; 	
     border-radius: 50%;
-	opacity: .6;
+	opacity: .8;
 	transition: 0.3s linear; 
 }
 
 .aboutme-wrapper__ball:hover {    
-	opacity: .9;	
+	opacity: 1;	
 	-webkit-box-shadow: 0px -1px 29px 4px rgba(255, 255, 255, 0.11);
 -moz-box-shadow: 0px -1px 29px 4px rgba(255, 255, 255, 0.11);
 box-shadow: 0px -1px 29px 4px rgba(255, 255, 255, 0.11);

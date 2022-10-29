@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
+import Skills from '../Skills/Skills';
 import './index.scss';
 
 const Main = () => {
@@ -7,7 +8,7 @@ const Main = () => {
     <main>
       <div className="main-wrapper">
         <AboutMe />
-        <section id="skills">Skills</section>
+        <Skills />
         <section id="projects">Projects</section>
         <section id="experience">Experience</section>
         <section id="education">Education</section>

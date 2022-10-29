@@ -3,6 +3,9 @@
 header {   
   min-height: 100px;   
   background-color: $bg-color;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 main {

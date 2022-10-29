@@ -3,11 +3,11 @@ import './index.scss';
 
 const Skills = () => {
   return (
-    <main>
-      <div className="skills-wrapper">
-        <section id="skills">Skills</section>
-      </div>
-    </main>
+    <div className="skills-wrapper">
+      <section id="skills">
+        <h3>My hard skills</h3>
+      </section>
+    </div>
   );
 };
 

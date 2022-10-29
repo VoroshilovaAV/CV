@@ -11,7 +11,10 @@
 
 .header-links > a {  
     font-size: larger;  
-    padding: 0 25px;
+    position: static;
+    flex-direction: row;
+    justify-content: right;
+    padding-left: 40px;
     transition: 0.4s linear; 
 }
 
