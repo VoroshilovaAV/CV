@@ -1,6 +1,38 @@
 @import '../../constants/index.scss';
 
 .footer-wrapper {    
-    min-height: 70px;
+    min-height: 90px;
     padding: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-wrapper__text{
+      color: white;      
+      font-size: 1.1rem; 
+    }
+
+    .footer-container__links{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;       
+      
+      a {
+        padding: 0 10px; 
+      }
+
+      a:last-child{
+        padding-right: 0; 
+      }
+
+      img {
+        border: 1px solid rgb(116, 110, 110);   
+        border-radius: 50%;   
+        transition: all .5s ease;
+      }
+
+      img:hover {
+        opacity: 0.4;
+      }
+    }
 }
