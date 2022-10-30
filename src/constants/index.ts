@@ -10,6 +10,9 @@ import figma from '../assets/icons/figma.svg';
 import ph from '../assets/icons/ph.svg';
 import rest from '../assets/icons/rest.svg';
 import bem from '../assets/icons/bem.svg';
+import rickmorty from '../assets/images/rickmorty.jpg';
+import lang from '../assets/images/lang.jpg';
+import area from '../assets/images/area.jpg';
 
 export const CardsSkills = [
   {
@@ -71,5 +74,37 @@ export const CardsSkills = [
     id: 11,
     image: `${bem}`,
     name: 'BEM',
+  },
+];
+
+export const CardProject = [
+  {
+    id: 0,
+    image: `${rickmorty}`,
+    name: 'Rick and Morty characters',
+    tech: 'React, TypeScript, SCSS, React Hook Form, Redux Toolkit with Thunk, React testing library, Webpack',
+    description:
+      'The app with all the "Rick and Morty" characters. You can simply search for a character card or use filters.',
+    deploy: 'https://r-and-m-characters-voroshilova.netlify.app/',
+    gh: 'https://github.com/VoroshilovaAV/Rick-and-Morty',
+  },
+  {
+    id: 1,
+    image: `${area}`,
+    name: 'Reactive Area',
+    tech: 'React, Redux, TypeScript, Material UI, Styled Components, React Hook Form with Yup, React Dnd, i18next, Webpack, Figma',
+    description:
+      'This application is an easy-to-use and user-friendly project management software that will help you significantly increase the efficiency of your team at work.',
+    deploy: 'https://reactive-area-app.web.app/',
+    gh: 'https://github.com/VoroshilovaAV/Reactive-Area',
+  },
+  {
+    id: 2,
+    image: `${lang}`,
+    name: 'RS Lang',
+    tech: 'HTML, SCSS, TypeScript, Bootstrap, Chart.js library, Webpack, Figma',
+    description: `This is an application for learning English. Learning English will be much easier, because you don't have to force yourself learning words - just memorise them by playing!`,
+    deploy: 'https://voroshilovaav.github.io/RS-Lang/',
+    gh: 'https://github.com/VoroshilovaAV/RS-Lang',
   },
 ];

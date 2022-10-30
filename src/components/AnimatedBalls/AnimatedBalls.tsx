@@ -30,7 +30,7 @@ const AnimatedBalls = () => {
   return (
     <>
       <animated.div className="aboutme-wrapper__ball aboutme-wrapper__pink" style={pinkBallStyles}>
-        <a href="https://github.com/VoroshilovaAV">
+        <a href="https://github.com/VoroshilovaAV" target="_blank" rel="noreferrer">
           <Github />
         </a>
       </animated.div>
@@ -38,12 +38,12 @@ const AnimatedBalls = () => {
         className="aboutme-wrapper__ball aboutme-wrapper__white"
         style={whiteBallStyles}
       >
-        <a href="https://www.linkedin.com/in/anna-voroshilova/">
+        <a href="https://www.linkedin.com/in/anna-voroshilova/" target="_blank" rel="noreferrer">
           <LinkedIn />
         </a>
       </animated.div>
       <animated.div className="aboutme-wrapper__ball aboutme-wrapper__blue" style={blueBallStyles}>
-        <a href="https://t.me/AVoroshilova">
+        <a href="https://t.me/AVoroshilova" target="_blank" rel="noreferrer">
           <Telegram />
         </a>
       </animated.div>

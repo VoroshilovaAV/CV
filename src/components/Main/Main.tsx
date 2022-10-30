@@ -1,6 +1,8 @@
 import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
 import Skills from '../Skills/Skills';
+import Projects from '../Projects/Projects';
+import Experience from '../Experience/Experience';
 import './index.scss';
 
 const Main = () => {
@@ -9,8 +11,8 @@ const Main = () => {
       <div className="main-wrapper">
         <AboutMe />
         <Skills />
-        <section id="projects">Projects</section>
-        <section id="experience">Experience</section>
+        <Projects />
+        <Experience />
         <section id="education">Education</section>
         <section id="languages">Languages</section>
       </div>

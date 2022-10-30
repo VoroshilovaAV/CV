@@ -5,16 +5,14 @@ import './index.scss';
 
 const Skills = () => {
   return (
-    <div className="skills-wrapper">
-      <section id="skills">
-        <h3>My hard skills</h3>
-        <div className="skills-cards">
-          {CardsSkills.map((item) => (
-            <SkillCard key={item.id} image={item.image} name={item.name} />
-          ))}
-        </div>
-      </section>
-    </div>
+    <section id="skills">
+      <h3>My hard skills</h3>
+      <div className="skills-cards">
+        {CardsSkills.map((item) => (
+          <SkillCard key={item.id} image={item.image} name={item.name} />
+        ))}
+      </div>
+    </section>
   );
 };
 
