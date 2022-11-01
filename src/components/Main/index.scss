@@ -5,3 +5,22 @@
     padding: 0 5vw;
 }
 
+.main-wrapper__button {    
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: $focus-color;
+  color: white;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 15px;
+  font-size: 40px;
+  transition: 0.4s;
+}
+
+.main-wrapper__button:hover {
+    background-color: rgb(78, 68, 73);
+}
