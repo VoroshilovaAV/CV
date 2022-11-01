@@ -10,6 +10,10 @@ import figma from '../assets/icons/figma.svg';
 import ph from '../assets/icons/ph.svg';
 import rest from '../assets/icons/rest.svg';
 import bem from '../assets/icons/bem.svg';
+import sass from '../assets/icons/sass.svg';
+import eslint from '../assets/icons/eslint.svg';
+import prettier from '../assets/icons/prettier.svg';
+import rtl from '../assets/icons/rtl.svg';
 import rickmorty from '../assets/images/rickmorty.jpg';
 import lang from '../assets/images/lang.jpg';
 import area from '../assets/images/area.jpg';
@@ -74,6 +78,26 @@ export const CardsSkills = [
     id: 11,
     image: `${bem}`,
     name: 'BEM',
+  },
+  {
+    id: 12,
+    image: `${sass}`,
+    name: 'SASS/SCSS',
+  },
+  {
+    id: 12,
+    image: `${eslint}`,
+    name: 'ESLint',
+  },
+  {
+    id: 12,
+    image: `${prettier}`,
+    name: 'Prettier',
+  },
+  {
+    id: 12,
+    image: `${rtl}`,
+    name: 'React Testing Library',
   },
 ];
 

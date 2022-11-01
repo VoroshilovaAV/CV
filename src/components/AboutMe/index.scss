@@ -100,7 +100,7 @@ span {
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
-.aboutme-wrapper__btn .aboutme-wrapper__link:hover::before /*lightup button*/ {
+.aboutme-wrapper__btn .aboutme-wrapper__link:hover::before {
 	bottom: 0;
 	height: 50%;
 	width: 80%;
@@ -120,13 +120,13 @@ span {
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
-.aboutme-wrapper__btn .aboutme-wrapper__link:hover::after /*lightup button*/ {
+.aboutme-wrapper__btn .aboutme-wrapper__link:hover::after {
 	top: 0;
 	height: 50%;
 	width: 80%;
 	border-radius: 30px;
 }
-.aboutme-wrapper__btn .aboutme-wrapper__link::before, /*chnage 1*/
+.aboutme-wrapper__btn .aboutme-wrapper__link::before,
 .aboutme-wrapper__btn .aboutme-wrapper__link::after {
 	background: $focus-color;
 	box-shadow: 0 0 5px $focus-color, 0 0 15px $focus-color, 0 0 30px $focus-color,
