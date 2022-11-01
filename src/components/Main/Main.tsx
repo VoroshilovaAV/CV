@@ -5,6 +5,7 @@ import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 import Education from '../Education/Education';
 import Languages from '../Languages/Languages';
+import RandomNumbers from '../RandomNumbers/RandomNumbers';
 import './index.scss';
 
 const Main = () => {
@@ -31,6 +32,7 @@ const Main = () => {
         <Skills />
         <Projects />
         <Experience />
+        <RandomNumbers />
         <Education />
         <Languages />
         {showButton && (
