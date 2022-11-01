@@ -108,3 +108,30 @@ export const CardProject = [
     gh: 'https://github.com/VoroshilovaAV/RS-Lang',
   },
 ];
+
+export const Courses = [
+  {
+    id: 0,
+    year: 'Mar 2022 - Jun 2022',
+    company: 'Rolling Scopes School',
+    name: 'React 2022Q1',
+    result: 'Certificate',
+    link: 'https://app.rs.school/certificate/mjcuo7c6',
+  },
+  {
+    id: 1,
+    year: 'Sep 2022 - Mar 2022',
+    company: 'Rolling Scopes School',
+    name: 'JavaScript/Front-end 2021Q3',
+    result: 'Certificate',
+    link: 'https://app.rs.school/certificate/qijxt04g',
+  },
+  {
+    id: 2,
+    year: '2018 - 2021',
+    company: 'Samara State Aerospace University',
+    name: 'AIRCRAFT ENGINES',
+    result: "Master's Degree",
+    link: '#',
+  },
+];

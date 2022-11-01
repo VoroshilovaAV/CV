@@ -11,3 +11,14 @@ export type ProjectCardType = {
   deploy: string;
   gh: string;
 };
+
+export type CourseType = {
+  id: number;
+  year: string;
+  company: string;
+  name: string;
+  result: string;
+  link: string;
+};
+
+export const lastCardId = 2;

@@ -3,6 +3,8 @@ import AboutMe from '../AboutMe/AboutMe';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
+import Education from '../Education/Education';
+import Languages from '../Languages/Languages';
 import './index.scss';
 
 const Main = () => {
@@ -13,8 +15,8 @@ const Main = () => {
         <Skills />
         <Projects />
         <Experience />
-        <section id="education">Education</section>
-        <section id="languages">Languages</section>
+        <Education />
+        <Languages />
       </div>
     </main>
   );

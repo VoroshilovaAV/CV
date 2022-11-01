@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactComponent as Photo } from '../../assets/images/photo.svg';
 import AnimatedBalls from '../AnimatedBalls/AnimatedBalls';
+import CVLink from '../../assets/docs/cv.pdf';
 import './index.scss';
 
 const AboutMe = () => {
@@ -14,7 +15,9 @@ const AboutMe = () => {
           <h1>Frontend Developer</h1>
           <div className="aboutme-wrapper__btn">
             <div className="aboutme-wrapper__link">
-              <a href="#">Download CV</a>
+              <a href={CVLink} download="Voroshilova_CV.pdf">
+                Download CV
+              </a>
             </div>
           </div>
           <AnimatedBalls />
