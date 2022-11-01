@@ -1,10 +1,41 @@
 @import '../../constants/index.scss';
 
 #languages {  
-    padding-bottom: 60px;    
 
     h3 {
         color: $text-secondary-color;
         padding-bottom: 40px;
     }
+
+    .languages-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30%;
+    }
+
+    .languages-wrapper__img {
+        width: 120px;     
+        border-radius: 15px;  
+        opacity: .6;
+        transition: .4s;
+    }
+
+    .languages-wrapper__img:hover {
+        width: 120px;     
+        border-radius: 15px;  
+        opacity: .9;
+    }
+
+    h4 {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: center;        
+    }
+
 }
