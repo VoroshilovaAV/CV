@@ -9,10 +9,12 @@
     "@types/react-scroll": "^1.8.4",
     "node-sass": "^7.0.3",
     "react": "^18.1.0",
+    "react-countup": "^6.3.2",
     "react-dom": "^18.1.0",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.8",
     "react-spring": "^9.5.5",
+    "react-visibility-sensor": "^5.1.1",
     "typescript": "^4.6.4",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"

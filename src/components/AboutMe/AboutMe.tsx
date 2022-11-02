@@ -10,7 +10,7 @@ const AboutMe = () => {
       <div className="aboutme-wrapper">
         <section className="aboutme-wrapper__text">
           <h3>
-            <span>&#060;</span>Hello world<span>/&#062;</span>, I&#039;m <span>Anna</span>
+            <span>&#060;</span>Hello, world<span>/&#062;</span>, I&#039;m <span>Anna</span>
           </h3>
           <h1>Frontend Developer</h1>
           <div className="aboutme-wrapper__btn">
