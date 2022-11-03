@@ -147,3 +147,70 @@ span {
 .aboutme-wrapper__photo {
 	max-width: 490px;
 }
+
+@media screen and (max-width: 970px) {
+	h1 {
+		font-size: 3rem;
+	}
+
+	.aboutme-wrapper {    
+		display: flex;
+		flex-direction: column-reverse;
+		row-gap: 25px;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.aboutme-wrapper__photo {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	.aboutme-info {
+		padding: 30px 0;
+		
+		p {
+			font-size: 18px;			
+		}
+	}
+}
+
+@media screen and (max-width: 430px) {
+	h1 {
+		font-size: 1.8rem;
+	}
+
+	h3 {
+		font-size: 1.2rem;
+	}
+
+	.aboutme-wrapper__photo {
+		width: 70%;
+	}
+
+	.aboutme-info {
+		padding: 30px 0;
+		
+		p {
+			font-size: 18px;			
+		}
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.aboutme-info {
+		padding: 20px 0;
+		
+		p {
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 35px;
+			letter-spacing: 0.04em;			
+		}
+	}
+}

@@ -47,3 +47,27 @@
         transition: width 0.2s ease;
       }
 }
+
+@media screen and (max-width: 730px) {
+    #experience{  
+        padding-top: 30px;
+    }
+    .experience-wrapper {
+        flex-direction: column;     
+    }
+
+    #experience .experience-wrapper__info {
+        width: 100%;       
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #experience .experience-wrapper__info {
+       margin-top: 15px;    
+    }
+
+    #experience .experience-wrapper__info_bold {
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+    }
+}

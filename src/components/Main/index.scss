@@ -24,3 +24,10 @@
 .main-wrapper__button:hover {
     background-color: rgb(78, 68, 73);
 }
+
+@media screen and (max-width: 430px) {
+  .main-wrapper__button {     
+    right: 20px;    
+    font-size: 30px;
+  }
+}

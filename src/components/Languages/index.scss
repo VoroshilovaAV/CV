@@ -10,6 +10,7 @@
     .languages-wrapper {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
         gap: 30%;
     }
@@ -22,8 +23,6 @@
     }
 
     .languages-wrapper__img:hover {
-        width: 120px;     
-        border-radius: 15px;  
         opacity: .9;
     }
 
@@ -38,4 +37,10 @@
         text-align: center;        
     }
 
+}
+
+@media screen and (max-width: 405px) {
+	#languages > .languages-wrapper > .languages-wrapper__ru, .languages-wrapper__en {
+        margin: 20px;               
+    }
 }

@@ -144,7 +144,7 @@ export const Courses = [
   },
   {
     id: 1,
-    year: 'Sep 2022 - Mar 2022',
+    year: 'Sep 2021 - Mar 2022',
     company: 'Rolling Scopes School',
     name: 'JavaScript/Front-end 2021Q3',
     result: 'Certificate',

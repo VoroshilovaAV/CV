@@ -38,3 +38,9 @@ svg {
 	left: 90px;
 	background-color: $text-tertiary-color;
 }
+
+@media screen and (max-width: 970px) {
+	.aboutme-wrapper__ball {
+		display: none;
+	}
+}

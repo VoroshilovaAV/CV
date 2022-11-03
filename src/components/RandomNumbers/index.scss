@@ -34,3 +34,42 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+	.random {
+        .random__numbers {
+            justify-content: center;
+            gap: 5%;          
+        }
+        
+        .random__block {
+            width: 200px;            
+        }
+    }   
+}
+
+@media screen and (max-width: 530px) {
+	.random {
+        h3 {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .random__numbers {
+            gap: 2%;          
+        }
+        
+        .random__block {            
+            max-width: 180px;
+    
+            span {
+                font-size: 50px;
+                font-weight: 500;
+            }
+    
+            p {
+                font-size: 18px;
+            }
+        }
+    }   
+}

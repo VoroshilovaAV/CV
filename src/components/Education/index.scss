@@ -53,3 +53,20 @@
         transition: width 0.2s ease;
       }
 }
+
+@media screen and (max-width: 560px) {
+    #education {          
+        .education-wrapper {            
+            flex-direction: column; 
+            text-align: center;              
+        }
+    
+        .education-wrapper__info {            
+            width: 100%;         
+        }  
+
+        .education-wrapper__bar {
+            width: 100%;
+          }
+    }
+}

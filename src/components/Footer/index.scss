@@ -36,3 +36,12 @@
       }
     }
 }
+
+@media screen and (max-width: 430px) {
+  .footer-wrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+}

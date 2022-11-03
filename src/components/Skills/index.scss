@@ -11,3 +11,22 @@
     justify-content: space-between;
     align-items: center;    
 }
+
+@media screen and (max-width: 1050px) {
+	#skills > h3 {
+        text-align: center;
+    }
+
+    .skills-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2.5%;  
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .skills-cards {      
+        gap: 5%;  
+    }
+}
