@@ -1,0 +1,75 @@
+$textColor--active: #f1f1f1;
+$textColor--inactive: rgb(155, 142, 155);
+
+.header-toggle {
+    display: block;
+    text-align: center;
+    user-select: none;
+}
+
+.header-checkbox {
+    display: none;
+}
+
+.header-toggle__btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.4em;
+    transition: all 350ms ease-in;
+
+    &:hover {
+    cursor: pointer;
+    }
+}
+
+.header-toggle__btn,
+.header-checkbox {
+    &,
+    &:before,
+    &:after {
+    transition: all 250ms ease-in;
+    }
+    &:before,
+    &:after {
+    content: '';
+    display: block;
+    }
+}
+
+.header-toggle_neon {
+margin-top: 0;
+padding: 50px 0;
+
+& .header-toggle__btn {
+    font-size: 1.2em;
+    letter-spacing: 0.08rem;   
+    font-weight: 500; 
+    color: $textColor--inactive;
+    &:before,
+    &:after {
+    display: inline-block;
+    margin: 0 10px;
+    }
+
+    &:before {
+    content: attr(data-label-en);  
+    color: $textColor--active;
+    }
+    &:after {
+    content: attr(data-label-ru);
+    }
+}
+
+& .header-checkbox {
+    &:checked {
+    & + .header-toggle__btn {
+        &:before {
+        color: $textColor--inactive;
+        }
+        &:after {        
+        color: $textColor--active;
+        }
+    }
+    }
+}
+}

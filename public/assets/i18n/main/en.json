@@ -1,0 +1,23 @@
+{
+    "skills": "Skills", 
+    "projects": "Projects",
+    "experience": "Experience",
+    "education" : "Education",
+    "devBy": "by Voroshilova A.",
+    "hello": "Hello, world",
+    "i": "I'm",
+    "anna": "Anna",
+    "CV": "Download CV",
+    "p1": "I'm a frontend developer from Samara (Russia)",
+    "p2": "I have experience with JavaScript, TypeScript, Wepback, React, React Native and Redux",
+    "p3": "In addition, I worked as a technical support specialist (web-hosting issues), so I also have knowledge in Linux system administration, working with many CMS, setting up mail, working with Apache, Nginx and Mysql",
+    "p4": "I'm always happy to get new experiences and learn new development tools. I will be glad to communicate and work in a team!",
+    "myHardSkills": "My hard skills",
+    "recentProjects": "Recent projects",
+    "workExperience":"Work experience",
+    "languages": "Languages",
+    "russian": "Russian",
+    "english": "English",
+    "Native": "Native",
+    "Intermediate":"Intermediate"
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-scroll';
 
 interface Props {
@@ -6,6 +7,8 @@ interface Props {
 }
 
 const HeaderLinksMobile: React.FC<Props> = ({ closeSideBar }) => {
+  const { t } = useTranslation(['main']);
+
   return (
     <>
       <Link
@@ -16,7 +19,7 @@ const HeaderLinksMobile: React.FC<Props> = ({ closeSideBar }) => {
         offset={-150}
         duration={500}
       >
-        Skills
+        {t('skills')}
       </Link>
       <Link
         onClick={closeSideBar}
@@ -26,7 +29,7 @@ const HeaderLinksMobile: React.FC<Props> = ({ closeSideBar }) => {
         offset={-150}
         duration={500}
       >
-        Projects
+        {t('projects')}
       </Link>
       <Link
         onClick={closeSideBar}
@@ -36,7 +39,7 @@ const HeaderLinksMobile: React.FC<Props> = ({ closeSideBar }) => {
         offset={-150}
         duration={500}
       >
-        Experience
+        {t('experience')}
       </Link>
       <Link
         onClick={closeSideBar}
@@ -46,7 +49,7 @@ const HeaderLinksMobile: React.FC<Props> = ({ closeSideBar }) => {
         offset={-150}
         duration={500}
       >
-        Education
+        {t('education')}
       </Link>
     </>
   );

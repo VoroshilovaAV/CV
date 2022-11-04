@@ -1,12 +1,15 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-scroll';
 import './index.scss';
 
 const HeaderLinksDesktop = () => {
+  const { t } = useTranslation(['main']);
+
   return (
     <>
       <Link to="skills" spy={true} smooth={true} offset={-150} duration={500}>
-        Skills
+        {t('skills')}
       </Link>
       <Link
         activeClass="active"
@@ -16,7 +19,7 @@ const HeaderLinksDesktop = () => {
         offset={-150}
         duration={500}
       >
-        Projects
+        {t('projects')}
       </Link>
       <Link
         activeClass="active"
@@ -26,7 +29,7 @@ const HeaderLinksDesktop = () => {
         offset={-150}
         duration={500}
       >
-        Experience
+        {t('experience')}
       </Link>
       <Link
         activeClass="active"
@@ -36,7 +39,7 @@ const HeaderLinksDesktop = () => {
         offset={-150}
         duration={500}
       >
-        Education
+        {t('education')}
       </Link>
     </>
   );

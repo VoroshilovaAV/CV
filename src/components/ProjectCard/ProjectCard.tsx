@@ -1,9 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { ProjectCardType } from '../../types/types';
 import './index.scss';
 
 const ProjectCard = (props: ProjectCardType) => {
   const { image, name, tech, description, deploy, gh } = props;
+  const { t } = useTranslation(['projects']);
 
   return (
     <article className="project">
@@ -21,7 +23,7 @@ const ProjectCard = (props: ProjectCardType) => {
           </li>
           <li className="tag__item">
             <a href={deploy} target="_blank" rel="noreferrer">
-              &#10032; View Deploy
+              &#10032; {t('view')} Deploy
             </a>
           </li>
         </ul>
