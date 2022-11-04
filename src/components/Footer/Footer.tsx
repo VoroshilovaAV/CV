@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-wrapper">
-        <p className="footer-wrapper__text">❮❯ by Voroshilova A. - 2022</p>
+        <p className="footer-wrapper__text">❮ ❯ by Voroshilova A. - 2022</p>
         <div className="footer-container__links">
           <a href="https://github.com/VoroshilovaAV" target="_blank" rel="noreferrer">
             <img src={githubIcon} alt="github icon" />

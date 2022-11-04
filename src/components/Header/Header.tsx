@@ -1,64 +1,32 @@
-import React from 'react';
-import { Link } from 'react-scroll';
+import React, { useState } from 'react';
+import { bubble as Menu } from 'react-burger-menu';
+import HeaderLinksDesktop from '../HeaderLinksDesktop/HeaderLinksDesktop';
+import HeaderLinksMobile from '../HeaderLinksMobile/HeaderLinksMobile';
 import './index.scss';
 
 const Header = () => {
+  const [isOpen, setOpen] = useState(false);
+  const handleIsOpen = () => {
+    setOpen(!isOpen);
+  };
+  const closeSideBar = () => setOpen(false);
+
   return (
     <>
       <header>
+        <nav className="header-burger">
+          <Menu right isOpen={isOpen} onOpen={handleIsOpen} onClose={handleIsOpen} width={'100%'}>
+            <HeaderLinksMobile
+              closeSideBar={() => {
+                closeSideBar();
+              }}
+            />
+          </Menu>
+        </nav>
         <div className="header-wrapper">
           <section>Logo</section>
           <nav className="header-links">
-            <Link
-              activeClass="active"
-              to="skills"
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={500}
-            >
-              Skills
-            </Link>
-            <Link
-              activeClass="active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={500}
-            >
-              Projects
-            </Link>
-            <Link
-              activeClass="active"
-              to="experience"
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={500}
-            >
-              Experience
-            </Link>
-            <Link
-              activeClass="active"
-              to="education"
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={500}
-            >
-              Education
-            </Link>
-            <Link
-              activeClass="active"
-              to="languages"
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={500}
-            >
-              Languages
-            </Link>
+            <HeaderLinksDesktop />
           </nav>
         </div>
       </header>

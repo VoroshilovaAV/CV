@@ -85,17 +85,17 @@ export const CardsSkills = [
     name: 'SASS/SCSS',
   },
   {
-    id: 12,
+    id: 13,
     image: `${eslint}`,
     name: 'ESLint',
   },
   {
-    id: 12,
+    id: 14,
     image: `${prettier}`,
     name: 'Prettier',
   },
   {
-    id: 12,
+    id: 15,
     image: `${rtl}`,
     name: 'React Testing Library',
   },

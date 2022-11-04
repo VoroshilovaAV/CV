@@ -18,7 +18,7 @@ const Experience = () => {
           </p>
           <ul>
             <li>
-              <span>&#10004;</span> Site hosting, work with Apache, Nginx, Mysql and PHP
+              <span>&#10004;</span> Sites hosting, work with Apache, Nginx, Mysql and PHP
             </li>
             <li>
               <span>&#10004;</span> Troubleshooting server errors and work with the command line

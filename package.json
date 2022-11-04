@@ -9,6 +9,7 @@
     "@types/react-scroll": "^1.8.4",
     "node-sass": "^7.0.3",
     "react": "^18.1.0",
+    "react-burger-menu": "^3.0.8",
     "react-countup": "^6.3.2",
     "react-dom": "^18.1.0",
     "react-scripts": "^5.0.1",
@@ -48,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-burger-menu": "^2.8.3",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",

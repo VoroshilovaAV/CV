@@ -32,8 +32,8 @@ const AboutMe = () => {
           Native and Redux.<span>/&#062;</span>
           <br />
           <span>&#060;</span>In addition, I worked as a technical support specialist (web-hosting
-          issues), so I also have knowledge in Linux administration, working with many CMS, setting
-          up mail, working with Apache, Nginx and Mysql.<span>/&#062;</span>
+          issues), so I also have knowledge in Linux system administration, working with many CMS,
+          setting up mail, working with Apache, Nginx and Mysql.<span>/&#062;</span>
           <br /> <span>&#060;</span>I&#039;m always happy to get new experiences and learn new
           development tools. I will be glad to communicate and work in a team!<span>/&#062;</span>
         </p>

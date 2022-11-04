@@ -1,0 +1,16 @@
+@import '../../constants/index.scss';
+
+.header-links > a {  
+    font-size: larger;  
+    position: static;
+    flex-direction: row;
+    justify-content: right;
+    padding-left: 40px;
+    transition: 0.4s linear; 
+    letter-spacing: 0.05em;	
+}
+
+.header-links > a:hover, .active {  
+    color: $text-secondary-color;
+    cursor: pointer; 
+}
