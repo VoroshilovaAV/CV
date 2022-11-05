@@ -2,15 +2,11 @@
   "name": "cv",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@types/node": "^16.11.33",
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
-    "@types/react-scroll": "^1.8.4",
+  "dependencies": { 
     "i18next": "^22.0.4",
     "i18next-browser-languagedetector": "^7.0.1",
     "i18next-http-backend": "^2.0.1",
-    "node-sass": "^7.0.3",
+    "node-sass": "^7.0.3",   
     "react": "^18.1.0",
     "react-burger-menu": "^3.0.8",
     "react-countup": "^6.3.2",
@@ -40,21 +36,25 @@
       "react-app"
     ]
   },
-  "browserslist": {
+  "browserslist": {   
     "production": [
-      ">0.2%",
+      ">0.2%",      
       "not dead",
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version"
+    ]    
   },
   "devDependencies": {
+    "@types/node": "^16.11.33",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@types/react-scroll": "^1.8.4",
     "@types/react-burger-menu": "^2.8.3",
-    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",    
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
