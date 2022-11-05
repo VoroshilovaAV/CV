@@ -13,11 +13,55 @@
     "p3": "In addition, I worked as a technical support specialist (web-hosting issues), so I also have knowledge in Linux system administration, working with many CMS, setting up mail, working with Apache, Nginx and Mysql",
     "p4": "I'm always happy to get new experiences and learn new development tools. I will be glad to communicate and work in a team!",
     "myHardSkills": "My hard skills",
-    "recentProjects": "Recent projects",
-    "workExperience":"Work experience",
     "languages": "Languages",
     "russian": "Russian",
     "english": "English",
     "Native": "Native",
-    "Intermediate":"Intermediate"
+    "Intermediate":"Intermediate",
+    "recentProjects": "Recent projects",
+    "view": "View",
+    "cardsProjects": {
+        "0": "The app with all the Rick and Morty characters. You can simply search for a character card or use filters.",
+        "1": "This application is an easy-to-use and user-friendly project management software that will help you significantly increase the efficiency of your team at work.",
+        "2": "This is an application for learning English. Learning English will be much easier, because you don't have to force yourself learning words - just memorise them by playing!"
+    },
+    "samara": "Samara, Russia",
+    "technicalSupport": "Technical support specialist (web-hosting issues)",
+    "duties": {
+        "0": "Sites hosting, work with Apache, Nginx, Mysql and PHP",
+        "1": "Troubleshooting server errors and work with the command line",
+        "2": "Installing and configuring the software, including the CMS",
+        "3": "Mail setup, routing and connection troubleshooting",
+        "4": "Creating bug cards when problems are detected",
+        "5": "Monitoring hosting servers",
+        "6": "Creating documentation of expert opinions on university exhibits",
+        "7": "Working at exhibitions with scientific exhibits"    
+    },
+   "samaraState": "Samara State Aerospace University",
+   "engineer": "Engineer",
+   "randomNumbers": "Random Numbers",
+   "kata": "completed Katas on CodeWars",
+   "commits": "commits in 2022",
+   "technologies": "technologies studied",
+   "readyMade": "ready-made applications developed in 2022",
+   "cardCourses": {
+        "0": {
+            "year": "Mar 2022 - Jun 2022",
+            "company": "Rolling Scopes School",
+            "name": "React 2022Q1",
+            "result": "Certificate" 
+        }, 
+        "1": {
+            "year": "Sep 2021 - Mar 2022",
+            "company": "Rolling Scopes School",
+            "name": "JavaScript/Front-end 2021Q3",
+            "result": "Certificate" 
+        },
+        "2": {
+            "year": "2018 - 2021",
+            "company": "Samara State Aerospace University",
+            "name": "Aircraft Engines",
+            "result": "Master's Degree" 
+        }
+   }
 }

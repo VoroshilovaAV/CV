@@ -1,39 +1,40 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './index.scss';
 
 const Experience = () => {
+  const { t } = useTranslation(['main']);
+
   return (
     <section id="experience">
-      <h3>Work experience</h3>
+      <h3>{t('experience')}</h3>
       <section className="experience-wrapper">
         <div className="experience-wrapper__info">
           <p>2019-2022</p>
           <div className="experience-wrapper__bar"></div>
           <p className="experience-wrapper__info_bold">REG.RU</p>
-          <p>Samara, Russia</p>
+          <p>{t('samara')}</p>
         </div>
         <div className="experience-wrapper__info">
-          <p className="experience-wrapper__info_bold">
-            Technical support specialist (web-hosting issues)
-          </p>
+          <p className="experience-wrapper__info_bold">{t('technicalSupport')}</p>
           <ul>
             <li>
-              <span>&#10004;</span> Sites hosting, work with Apache, Nginx, Mysql and PHP
+              <span>&#10004;</span> {t('duties.0')}
             </li>
             <li>
-              <span>&#10004;</span> Troubleshooting server errors and work with the command line
+              <span>&#10004;</span> {t('duties.1')}
             </li>
             <li>
-              <span>&#10004;</span> Installing and configuring the software, including the CMS
+              <span>&#10004;</span> {t('duties.2')}
             </li>
             <li>
-              <span>&#10004;</span> Mail setup, routing and connection troubleshooting
+              <span>&#10004;</span> {t('duties.3')}
             </li>
             <li>
-              <span>&#10004;</span> Creating bug cards when problems are detected
+              <span>&#10004;</span> {t('duties.4')}
             </li>
             <li>
-              <span>&#10004;</span> Monitoring hosting servers
+              <span>&#10004;</span> {t('duties.5')}
             </li>
           </ul>
         </div>
@@ -43,17 +44,17 @@ const Experience = () => {
         <div className="experience-wrapper__info">
           <p>2018-2019</p>
           <div className="experience-wrapper__bar"></div>
-          <p className="experience-wrapper__info_bold">Samara State Aerospace University</p>
-          <p>Samara, Russia</p>
+          <p className="experience-wrapper__info_bold">{t('samaraState')}</p>
+          <p>{t('samara')}</p>
         </div>
         <div className="experience-wrapper__info">
-          <p className="experience-wrapper__info_bold">Engineer</p>
+          <p className="experience-wrapper__info_bold">{t('engineer')}</p>
           <ul>
             <li>
-              <span>&#10004;</span> Creating documentation of expert opinions on university exhibits
+              <span>&#10004;</span> {t('duties.6')}
             </li>
             <li>
-              <span>&#10004;</span> Working at exhibitions with scientific exhibits
+              <span>&#10004;</span> {t('duties.7')}
             </li>
           </ul>
         </div>

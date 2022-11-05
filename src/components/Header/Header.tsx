@@ -8,6 +8,7 @@ import './toggle.scss';
 
 const Header = () => {
   const { i18n } = useTranslation();
+  const lang = localStorage.getItem('i18nextLng');
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     e.target.checked ? i18n.changeLanguage('ru') : i18n.changeLanguage('en');
   };
@@ -32,6 +33,7 @@ const Header = () => {
                 onChange={handleChange}
                 id="header-toggle_neon"
                 className="header-checkbox"
+                checked={lang === 'ru' ? true : false}
               />
               <label
                 className="header-toggle__btn"

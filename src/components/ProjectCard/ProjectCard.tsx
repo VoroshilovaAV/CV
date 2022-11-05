@@ -5,7 +5,7 @@ import './index.scss';
 
 const ProjectCard = (props: ProjectCardType) => {
   const { image, name, tech, description, deploy, gh } = props;
-  const { t } = useTranslation(['projects']);
+  const { t } = useTranslation(['main']);
 
   return (
     <article className="project">

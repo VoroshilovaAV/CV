@@ -13,7 +13,7 @@ i18n
     },
     fallbackLng: 'en',
     debug: false,
-    ns: ['main', 'projects', 'experience', 'numbers', 'education'],
+    ns: ['main'],
     interpolation: {
       formatSeparator: ',',
     },

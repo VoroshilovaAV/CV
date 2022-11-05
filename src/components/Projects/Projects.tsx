@@ -16,7 +16,7 @@ const Projects = () => {
           image={item.image}
           name={item.name}
           tech={item.tech}
-          description={item.description}
+          description={t(`${item.id}`, { keyPrefix: 'cardsProjects' })}
           deploy={item.deploy}
           gh={item.gh}
         />
