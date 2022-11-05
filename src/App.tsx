@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     const lang = localStorage.getItem('i18nextLng');
-    i18n.changeLanguage(lang ? lang : 'en');
+    i18n.changeLanguage(lang ? (lang === 'ru-RU' ? 'ru' : lang) : 'en');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

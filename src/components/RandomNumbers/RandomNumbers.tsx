@@ -28,7 +28,7 @@ const RandomNumbers = () => {
           <p>{t('kata')}</p>
         </div>
         <div className="random__block">
-          <CountUp end={didViewCountUp ? 580 : 0}>
+          <CountUp end={didViewCountUp ? 590 : 0}>
             {({ countUpRef }) => (
               <VisibilitySensor onChange={onVisibilityChange} delayedCall>
                 <span ref={countUpRef} />
@@ -38,7 +38,7 @@ const RandomNumbers = () => {
           <p>{t('commits')}</p>
         </div>
         <div className="random__block">
-          <CountUp end={didViewCountUp ? 19 : 0}>
+          <CountUp end={didViewCountUp ? 16 : 0}>
             {({ countUpRef }) => (
               <VisibilitySensor onChange={onVisibilityChange} delayedCall>
                 <span ref={countUpRef} />
