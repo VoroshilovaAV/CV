@@ -27,4 +27,4 @@ This is a CV application with information about me, you can also download the CV
 
 #### Deploy
 
-https://cv-frontend-developer-voroshilova.netlify.app/
+https://cv-voroshilova.netlify.app/
